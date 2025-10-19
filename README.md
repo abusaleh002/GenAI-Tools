@@ -1,26 +1,39 @@
 # GenAI Tools — Resume Q&A + JD ↔ Resume Match
+
+A collection of AI-powered career tools built with **Streamlit**, **LangChain**, and **Groq/OpenAI**, designed to help users analyze and optimize their resumes.
+
 Live Demo:
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://genai-tools-abu-saleh.streamlit.app/)
 
-Upload a resume PDF and ask questions with page citations.  
-Or paste a job description and your resume to see a match score and missing keywords.
+---
 
-## Features
-- PDF → Q&A with grounded answers (MiniLM + FAISS + Groq Llama-3.1)
-- JD ↔ Resume match with missing keywords
-- Runs locally or on Streamlit Cloud
+# 💼 GenAI Tools
 
-## Quickstart
+AI-powered career toolkit built with **Streamlit**, **LangChain**, and **Groq/OpenAI** — helping you analyze, chat with, and optimize your resume.
+
+---
+
+![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit)
+![LangChain](https://img.shields.io/badge/LangChain-Enabled-green)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+---
+
+### 🚀 Features
+- 🧠 **Ask My Resume** — Chat with your resume (PDF) using RAG.  
+- 🤖 **ATS Optimizer** — Compare your resume with a job description and get match percentage + missing keywords.
+
+---
+
+### ⚙️ Tech Stack
+**Python • Streamlit • LangChain • FAISS • Sentence Transformers • Groq/OpenAI**
+
+---
+
+### 🛠️ Quick Start
 ```bash
-# install
+git clone https://github.com/<your-username>/GenAI-Tools.git
+cd GenAI-Tools
 pip install -r requirements.txt
-
-# set your key (pick one)
-# 1) in .streamlit/secrets.toml:
-#    GROQ_API_KEY = "sk_xxx"
-# 2) or env var:
-#    export GROQ_API_KEY="sk_xxx"   # macOS/Linux
-#    setx GROQ_API_KEY "sk_xxx"     # Windows
-
-# run
 streamlit run app.py
