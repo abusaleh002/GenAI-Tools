@@ -7,33 +7,63 @@ Live Demo:
 
 ---
 
-# 💼 GenAI Tools
-
-AI-powered career toolkit built with **Streamlit**, **LangChain**, and **Groq/OpenAI** — helping you analyze, chat with, and optimize your resume.
 
 ---
 
-![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit)
-![LangChain](https://img.shields.io/badge/LangChain-Enabled-green)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+## 🧠 Tech Stack
+
+| Category | Tools Used |
+|-----------|-------------|
+| Frontend | Streamlit + HTML/CSS |
+| Backend | Python + LangChain |
+| Embeddings | Sentence Transformers / OpenAI embeddings |
+| Models | Groq Llama 3.1 / GPT-4o / Local |
+| Vector Store | FAISS |
+| File Handling | PyPDF |
+| Environment | Python 3.11+, Virtual Env |
 
 ---
 
-### 🚀 Features
-- 🧠 **Ask My Resume** — Chat with your resume (PDF) using RAG.  
-- 🤖 **ATS Optimizer** — Compare your resume with a job description and get match percentage + missing keywords.
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone this repository
+```bash
+git clone https://github.com/abusaleh002/GenAI-Tools.git
+cd GenAI-Tools
+
+
 
 ---
 
-### ⚙️ Tech Stack
-**Python • Streamlit • LangChain • FAISS • Sentence Transformers • Groq/OpenAI**
+## 🧠 Tech Stack
+
+| Category | Tools Used |
+|-----------|-------------|
+| Frontend | Streamlit + HTML/CSS |
+| Backend | Python + LangChain |
+| Embeddings | Sentence Transformers / OpenAI embeddings |
+| Models | Groq Llama 3.1 / GPT-4o / Local |
+| Vector Store | FAISS |
+| File Handling | PyPDF |
+| Environment | Python 3.11+, Virtual Env |
 
 ---
 
-### 🛠️ Quick Start
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone this repository
 ```bash
 git clone https://github.com/<your-username>/GenAI-Tools.git
 cd GenAI-Tools
-pip install -r requirements.txt
-streamlit run app.py
+
+
+🧑‍💻 Author
+Abu Saleh
+📍 Data Scientist | AI Researcher
+🌐 Portfolio
+ | LinkedIn
+ | GitHub
+
+📄 License
+
+This project is open source under the MIT License — feel free to use, modify, and share.
